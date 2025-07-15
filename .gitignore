@@ -1,0 +1,31 @@
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# Output and data
+output/
+data/
+*.json
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode and IDE
+.vscode/
+.idea/
+
+# Keep empty dirs
+!data/.gitkeep
+!output/.gitkeep 
